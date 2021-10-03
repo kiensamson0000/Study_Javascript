@@ -4,9 +4,9 @@
  * 
 */  
 
-// var a = 1;
-// var b = 4;
-// console.log(a+b);
+var a = 1;
+var b = 4;
+console.log(a+b);
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -15,17 +15,17 @@
  * 
 */ 
 
-// var fullName = 'duong trung hieu'; // dau '' use nhieu hon ""
-// var age = 10;
-// var isMale = true;
-// var str3 = 'hello, i\'m kien.';  // escape a character (them dau \ )
+var fullName = 'duong trung hieu'; // dau '' use nhieu hon ""
+var age = 10;
+var isMale = true;
+var str3 = 'hello, i\'m kien.';  // escape a character (them dau \ )
 
-// truong hop dac biet
+//truong hop dac biet
 
 
-// var a;  //undefind
+var a;  //undefind
 
-// a = null; //null (phan biet null khac undefind)
+a = null; //null (phan biet null khac undefind)
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -34,35 +34,35 @@
  * 
 */ 
 
-// khai bao Object
-// var a = {
-//     key: value
-// };
+//khai bao Object
+var a = {
+    key: value
+};
 
-// dat ten bien(camelCase), vi du: myDog, sumMyFriend
+//dat ten bien(camelCase), vi du: myDog, sumMyFriend
 
-// var myMeo = {
-//   name: 'trang',
-//   gender: 'male',
-//   tuoi: 12
-// };
+var myMeo = {
+  name: 'trang',
+  gender: 'male',
+  tuoi: 12
+};
 
-// var myDog = {
-//   meo: 'trang',
-//   cho: 'den',
-//   tuoi: 12
-// };
+var myDog = {
+  meo: 'trang',
+  cho: 'den',
+  tuoi: 12
+};
 
-// //
-// console.log(myMeo);
-// console.log(myMeo.name);
-// // thay doi gia tri (2 cach tuong tu nhau)
-// ///cach1
-// myMeo.tuoi = 30;
-// console.log(myMeo);
-// ///cach2
-// myMeo['tuoi'] = 40
-// console.log(myMeo);
+//
+console.log(myMeo);
+console.log(myMeo.name);
+// thay doi gia tri (2 cach tuong tu nhau)
+///cach1
+myMeo.tuoi = 30;
+console.log(myMeo);
+///cach2
+myMeo['tuoi'] = 40
+console.log(myMeo);
 
 
 
@@ -116,7 +116,6 @@ var s = 3.14 * r*r;
 
 
 
-
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /**  Lesson 7 & 8: Arithmetic Operators 
  * 
@@ -160,28 +159,29 @@ a++ + ++a - --a + a--;
 // = , +=, -=, *=, /=
 
 
-
-
-
-
-
-
-
-
-
-
-
+var a;
+var b;
+var c = 5;
+a = b = 1;
+c += 1; // tuong tu *=, /=
 
 
 
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/**  Lesson 9: 
+/**  Lesson 10: Function
  * 
  * 
 */ 
 
+//vi du
+function dienTichTamGiac(a,h){
+    return (a*h) /2;
+  }
+  // tính diện tích tam giác, h=5, a=10
+  console.log(dienTichTamGiac(3,2));
+  
 
 
 
@@ -196,17 +196,4 @@ a++ + ++a - --a + a--;
 
 
 
-
-
-
-
-
-
-
-
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/**  Lesson 10: 
- * 
- * 
-*/ 
 

@@ -192,8 +192,4 @@ function dienTichTamGiac(a,h){
 
 
 
-
-
-
-
-
+  

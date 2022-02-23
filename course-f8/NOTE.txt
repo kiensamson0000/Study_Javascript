@@ -1,0 +1,13 @@
+NOTE
+
+HTML, CSS từ Zero đến Hero
+______________________________________________
+ 
+- Course: https://fullstack.edu.vn/courses/javascript-co-ban 
+ 
+- Github course: https://github.com/kiensamson0000/javascript-for-beginners.git
+ 
+- Other reference sources:
+https://docs.google.com/document/d/1wCI23zAdGwN5M0wKrPbHDbbbDWsKUW7bgr15NKD5XVA/edit?usp=sharing
+https://www.w3schools.com/js/default.asp 
+

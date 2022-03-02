@@ -177,7 +177,7 @@ const app = {
         }
 
         // Handling when seek
-        progress.onchange = function(e) {
+        progress.oninput = function(e) {
             const seekTime = e.target.value * (audio.duration / 100)
             audio.currentTime = seekTime;
         }
@@ -282,7 +282,7 @@ const app = {
         setTimeout(() => {
             $(".song.active").scrollIntoView({
                 behavior: "smooth",
-                block: "nearest"
+                block: "center"
             });
         }, 300);
     },

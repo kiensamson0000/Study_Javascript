@@ -1,3 +1,6 @@
+// Để rút ngắn hàm query DOM ngắn gọn
+// => use .bind 
+// note: beside, use nind cho ca console.log => let log = console.log.bind(document); log('hello');
 const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
 

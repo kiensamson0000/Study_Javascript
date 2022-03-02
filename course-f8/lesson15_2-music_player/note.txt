@@ -1,0 +1,5 @@
+- chức năng repeat , mình cũng có thể sử dụng thuộc tính có sẵn của HTML Audio , nguồn : https://www.w3schools.com/tags/av_prop_loop.asp ( nếu có ai post rồi thì thôi )
+
+
+
+- 
